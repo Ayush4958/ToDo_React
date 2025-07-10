@@ -1,0 +1,6 @@
+node_modules
+dist
+eslint.config.js
+node_modules/electron-to-chromium/package.json
+node_modules/electron-to-chromium/full-versions.js
+node_modules/electron-to-chromium/full-chromium-versions.js
