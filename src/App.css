@@ -1,0 +1,61 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1{
+  margin-bottom: 60px;
+  font-size: 8rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.task{
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+}
+
+.input {
+  width: 450px;
+  padding: 15px;
+  border: 2px solid #2a2a3a;
+  background: #00000f;
+  color: white;
+  font-size: 16px;
+  margin: 2px 12px;
+  border: 2px solid #2a2a3a;
+  border-radius: 25px;
+  transition: all 0.4s ease-out;
+}
+
+.task .input:focus {
+  border-color: #6a6fff;
+  box-shadow:
+    0 5px 8px #6a6dff4d,
+    0 10px 20px rgba(106, 146, 255, 0.2),
+    0 15px 40px rgba(101, 101, 255, 0.605),
+    0 20px 60px rgba(109, 106, 255, 0.1);
+  outline: none; 
+}
+
+.add-btn {
+  padding: 3px 8px;
+  height: 50px;
+  width: 150px;
+  cursor: pointer;
+  border-radius: 80px;
+  border: 2px solid #2a2a3a;
+}
+
+.add-btn:hover {
+  color: white;
+  transition: all 0.4s ease-out;
+  box-shadow:
+    0 5px 8px #6a6dff4d,
+    0 10px 20px rgba(106, 146, 255, 0.2),
+    0 15px 40px rgba(101, 101, 255, 0.605),
+    0 20px 60px rgba(109, 106, 255, 0.1);
+    border-color: #6a6fff;
+}
